@@ -1,11 +1,11 @@
 Kadane's Algorithm is an iterative dynamic programming algorithm, which is used to find the maximum sum of a subarray in the given array.
-__SubArray__
+# SubArray
 Sub array is a part of the array which contains elements contiguously.
 A subarray must contain atleast one element, atmost it can contain all the elements of the array.
 
-**Maximum Sum of The SubArray**  
+# Maximum Sum of The SubArray 
 -Finding maximum sum of the elements in a subarray. 
 -Using Brute Force approach the Time Complexity is O(n^3). 
 -Kadane's Algorithm is an efficient approach where the Time Complexity is O(n).
 
-**Kadane's Algorithm**
+
