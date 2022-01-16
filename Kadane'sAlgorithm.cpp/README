@@ -1,5 +1,5 @@
 Kadane's Algorithm is an iterative dynamic programming algorithm, which is used to find the maximum sum of a subarray in the given array.
-**SubArray**
+__SubArray__
 Sub array is a part of the array which contains elements contiguously.
 A subarray must contain atleast one element, atmost it can contain all the elements of the array.
 
