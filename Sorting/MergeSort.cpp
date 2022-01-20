@@ -1,36 +1,4 @@
-/* MergeSort:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//The code is written using templates for better reusabilty.
 
 
 #include<iostream>
@@ -88,13 +56,13 @@ void Merge_sort<T>::merge(int low,int mid,int high){
  
     while (i <= mid) {
         c[k] = arr[i];
-           cout<<"k: "<<k;
+//            cout<<"k: "<<k;
         k++;
         i++;
     }
     while (j <= high) {
         c[k] = arr[j];
-           cout<<"k: "<<k;
+//            cout<<"k: "<<k;
         k++;
         j++;
     }
