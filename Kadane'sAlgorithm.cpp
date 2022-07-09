@@ -35,7 +35,9 @@ void MaxSum(int arr[],int n){
         /*if(SubSum > Max){
             Max = SubSum;
         }*/
-        //replace with max function
+        //replace with max function before checking if its less than 0 as their might be arrays with all negative elements in such cases Max returns 
+        // least negative set of digits 
+        //if we keep this statement after subsum<0 it will update to 0 and give 0 which is wrong output 
         Max=max(SubSum,Max);
         if(SubSum < 0){
             SubSum = 0;
