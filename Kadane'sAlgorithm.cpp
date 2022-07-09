@@ -32,9 +32,11 @@ void MaxSum(int arr[],int n){
     int Max = arr[0];
     for(int i=0;i<n;i++){
         SubSum += arr[i];
-        if(SubSum > Max){
+        /*if(SubSum > Max){
             Max = SubSum;
-        }
+        }*/
+        //replace with max function
+        Max=max(SubSum,Max);
         if(SubSum < 0){
             SubSum = 0;
         }
